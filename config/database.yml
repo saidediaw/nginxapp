@@ -84,3 +84,4 @@ production:
   database: nginxapp_production
   username: nginxapp
   password: <%= ENV['NGINXAPP_DATABASE_PASSWORD'] %>
+  host: postgres
